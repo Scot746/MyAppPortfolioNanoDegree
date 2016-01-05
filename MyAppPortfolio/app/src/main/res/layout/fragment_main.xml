@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="pedroscott.com.myappportfolio.MainActivityFragment"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:id="@+id/tVHomeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/default_large_size"
+            android:text="@string/frg_home_tv_my_nanodegree_apps"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeSpotify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tVHomeTitle"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorPrimary"
+            android:text="@string/frg_home_btn_spotify_streamer"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeSuperDuo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bTHomeSpotify"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorPrimary"
+            android:text="@string/frg_home_btn_super_duo"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeBuildItBigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bTHomeSuperDuo"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorPrimary"
+            android:text="@string/frg_home_btn_build_it_bigger"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeSXYZReader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bTHomeBuildItBigger"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorPrimary"
+            android:text="@string/frg_home_btn_sxyz_reader"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeCapstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bTHomeSXYZReader"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorPrimary"
+            android:text="@string/frg_home_btn_capstone"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bTHomeMyOwn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bTHomeCapstone"
+            android:layout_margin="@dimen/default_medium_size"
+            android:background="@color/colorAccent"
+            android:text="@string/frg_home_btn_capstone_my_own_app"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</ScrollView>
+
