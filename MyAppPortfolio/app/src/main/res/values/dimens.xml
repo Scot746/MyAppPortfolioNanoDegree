@@ -9,4 +9,5 @@
     <dimen name="default_small_size">4dp</dimen>
     <dimen name="default_medium_size">8dp</dimen>
     <dimen name="default_large_size">16dp</dimen>
+    <dimen name="text_button_size">20sp</dimen>
 </resources>
